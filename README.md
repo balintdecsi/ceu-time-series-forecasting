@@ -11,7 +11,9 @@ Course materials and exercises for the Time Series Forecasting class.
   
 - `smart_meter_data.csv` - Smart meter dataset 
 - `UK_electricity_demand_2024.csv` - UK electricity demand dataset for the year 2024
-- `AUS monthly beer production.csv`- quaterly beer production in Australia (1956-1995)
+- `AUS quaterly beer production.csv`- quaterly beer production in Australia (1956-2010)
+- `AUS monthly beer production.csv`- monthly beer production in Australia (1956-2010)
+  
   
 
 ## Setup
@@ -43,14 +45,18 @@ jupyter notebook
 
 ### Books
 - Hyndman & Athanasopoulos - *Forecasting: Principles and Practice* (OTexts, 2018)
-  [Free online resources] (https://otexts.com/fpp3/)
-- Nielsen - *Practical Time Series Analysis* (O'Reilly, 2019)
+  [Free online resources] (https://otexts.com/fpp3/)  
+  This book offers an excellent introduction to the basics of preprocessing time series data and models to make forecasts. 
+  Examples are run in R  
+- Nielsen - *Practical Time Series Analysis* (O'Reilly, 2019)  
+  Practical guide on most common data engineering and analysis challenges in time series, using both traditional statistical and modern machine learning techniques. 
+  Well-rounded introduction to time series in both R and Python.   
 - Nield - *Essential Math for Data Science* (O'Reilly, 2022)
 
 ### Datasets
 accessing datasets in **Python**:   
-  *import statsmodels.api as sm *   
-  Common time series datasets in statsmodels:
+  *import statsmodels.api as sm*   
+  Common time series datasets in statsmodels:  
   sunspots - Monthly sunspot data  
   co2 - Atmospheric CO2 concentrations  
   nile - Annual Nile river flow  
