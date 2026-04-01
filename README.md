@@ -52,16 +52,6 @@ jupyter notebook
 
 ## Resources
 
-### Books
-- Hyndman & Athanasopoulos - *Forecasting: Principles and Practice* (OTexts, 2018)
-  [Free online resources] (https://otexts.com/fpp3/)  
-  This book offers an excellent introduction to the basics of preprocessing time series data and models to make forecasts. 
-  Examples are run in R  
-- Nielsen - *Practical Time Series Analysis* (O'Reilly, 2019)  
-  Practical guide on most common data engineering and analysis challenges in time series, using both traditional statistical and modern machine learning techniques. 
-  Well-rounded introduction to time series in both R and Python.   
-- Nield - *Essential Math for Data Science* (O'Reilly, 2022)
-
 ### Datasets
 accessing datasets in **Python**:   
   *import statsmodels.api as sm*   
@@ -78,9 +68,6 @@ accessing datasets in **Python**:
   Directly from **websites**:  
   - [UCI Machine Learning Repository](https://archive.ics.uci.edu/) - Time series datasets
   - [NOAA NAtional Centers for Enviromental Information](https://perma.cc/EA5R-TP5L) - US timeseries data related to temperature and precipitation
-
-### Learning links
-- [StatQuest](https://www.youtube.com/@statquest) - Statistics tutorials
 
 ## License
 
