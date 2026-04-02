@@ -59,5 +59,8 @@ I employ a **chronological split** (80% training, 20% testing). I do not use ran
 - `blog_post.md`: A non-technical summary of my findings and their real-world implications.
 - `assets/`: Plots and visualizations generated during my analysis.
 
+## 🤖 AI Declaration
+I used [Gemini 3.1](https://gemini.google.com/) in Gemini CLI to develop the initial code skeleton and enhance the visual aesthetics of the project's charts. The tool was used to provide boilerplate logic for data processing and suggestions for matplotlib/seaborn styling, which I subsequently reviewed, refined, and integrated into the final notebook.
+
 ## 📈 Results Summary
 My baseline ARIMA model achieved a Mean Absolute Error (MAE) of approximately 1245 MW. While the model captures the general seasonal trajectory, the high variance in weather-dependent generation suggests that future iterations could benefit from incorporating exogenous cloud cover data (SARIMAX).

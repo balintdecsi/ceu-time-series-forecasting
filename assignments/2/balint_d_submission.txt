@@ -1,0 +1,2 @@
+https://medium.com/@balint.decsi/predicting-uk-solar-electricity-generation-a-time-series-approach-858d27b97bfc
+https://github.com/balintdecsi/ceu-time-series-forecasting
